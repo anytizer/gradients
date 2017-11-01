@@ -1,2 +1,9 @@
 # gradients
-Linearly extract the gradient colors
+Linearly extracts the gradient colors
+
+## Installation
+
+    php -f gradient.php
+
+## Output
+![Output](/output.png)
