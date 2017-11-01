@@ -32,8 +32,8 @@ for($x=0; $x<$points; ++$x)
 
 $colors = array_reverse($colors); // reverse the gradients
 
-$css = file_get_contents("ts/css.ts");
-$scss = file_get_contents("ts/scss.ts");
+$css_ts = file_get_contents("ts/css.ts");
+$scss_ts = file_get_contents("ts/scss.ts");
 
 $loop = 0;
 $csses = array();
@@ -55,8 +55,11 @@ ul.menu li:nth-child({$loop}){
 ";
 }
 
-file_put_contents("gradients.css", sprintf($css, implode("", $csses)));
-file_put_contents("_gradients.scss", sprintf($scss, implode("", $scsses)));
+$css = sprintf($css_ts, implode("", $csses));
+$scss = sprintf($scss_ts, implode("", $scsses));
+
+file_put_contents("gradients.css", $css);
+file_put_contents("_gradients.scss", $scss);
 
 header("Content-Type: text/plain");
 echo $css;
