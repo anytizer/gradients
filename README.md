@@ -6,6 +6,6 @@ Linearly extracts the gradient colors
     php -f gradient.php
 
 ## Output
-Raw Image             | Output
---------------------- | -------------
-![Raw](/gradient.png) | ![Output](/output.png)
+Raw Image             | HTML Output             | SCSS/CSS Output
+--------------------- | ----------------------- | ----------
+![Raw](/gradients.png) | ![Output](/output.png)  | [_gradients.scss](_gradients.scss), [gradients.css](gradients.css)

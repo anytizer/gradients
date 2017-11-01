@@ -1,5 +1,5 @@
 <?php
-$filename = "gradient.png";
+$filename = "gradients.png";
 $size = getimagesize($filename);
 
 /**
