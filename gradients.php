@@ -1,11 +1,13 @@
 <?php
-$filename = "gradients.png";
+#$filename = "gradients-01.png";
+$filename = "gradients-02.png";
+#$filename = "gradients-03.png";
 $size = getimagesize($filename);
 
 /**
  * How many extractions?
  */
-$points = 20;
+$points = 12;
 
 $from = 0;
 $to = $size[0] - ($size[0]%$points); // width-wise; trim extra/reminder

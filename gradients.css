@@ -4,82 +4,50 @@
  */
 
 ul.menu li:nth-child(1){
-	background-color: #D8C9FF;
+	background-color: #FFDCE5;
 }
 
 ul.menu li:nth-child(2){
-	background-color: #D4C3FF;
+	background-color: #FFC8D6;
 }
 
 ul.menu li:nth-child(3){
-	background-color: #D0BEFF;
+	background-color: #FFB5C8;
 }
 
 ul.menu li:nth-child(4){
-	background-color: #CCB7FF;
+	background-color: #FFA1B8;
 }
 
 ul.menu li:nth-child(5){
-	background-color: #C8B2FF;
+	background-color: #FF8EA9;
 }
 
 ul.menu li:nth-child(6){
-	background-color: #C4ADFF;
+	background-color: #FF7A9B;
 }
 
 ul.menu li:nth-child(7){
-	background-color: #C0A8FF;
+	background-color: #FF668C;
 }
 
 ul.menu li:nth-child(8){
-	background-color: #BDA1FF;
+	background-color: #FF527D;
 }
 
 ul.menu li:nth-child(9){
-	background-color: #B89DFF;
+	background-color: #FF3E6E;
 }
 
 ul.menu li:nth-child(10){
-	background-color: #B496FF;
+	background-color: #FF2C5F;
 }
 
 ul.menu li:nth-child(11){
-	background-color: #B191FF;
+	background-color: #FF265C;
 }
 
 ul.menu li:nth-child(12){
-	background-color: #AD8BFF;
-}
-
-ul.menu li:nth-child(13){
-	background-color: #A886FF;
-}
-
-ul.menu li:nth-child(14){
-	background-color: #A380FF;
-}
-
-ul.menu li:nth-child(15){
-	background-color: #A17AFF;
-}
-
-ul.menu li:nth-child(16){
-	background-color: #9C74FF;
-}
-
-ul.menu li:nth-child(17){
-	background-color: #986FFF;
-}
-
-ul.menu li:nth-child(18){
-	background-color: #9369FF;
-}
-
-ul.menu li:nth-child(19){
-	background-color: #9064FF;
-}
-
-ul.menu li:nth-child(20){
-	background-color: #8B5FFF;
+	background-color: #FF265C;
 }
 
